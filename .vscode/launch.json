@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonTest",
+            "request": "launch",
+            "mainClass": "abstractClasses.PersonTest",
+            "vmArgs": "--enable-preview"
+
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - typeErasure",
+            "request": "launch",
+            "mainClass": "wildCard.typeErasure"
+        }
+    ]
+}

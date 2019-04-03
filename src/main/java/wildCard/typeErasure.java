@@ -1,7 +1,7 @@
 
 package wildCard;
 
-public class Node<T> {
+class Node<T> {
 
     public T data;
 
@@ -15,9 +15,9 @@ public class Node<T> {
     }
 }
 
-public class MyNode extends Node<Integer> {
+class MyNode extends Node<Integer> {
 
-    public MyNode(Interger data) {
+    public MyNode(Integer data) {
         super(data);
     }
 
@@ -33,6 +33,6 @@ public class typeErasure {
         MyNode mn = new MyNode(5);
         Node n = mn;
         n.setData("Hello");
-        Integer x = mn.data;
+        String x = (String) n.data;
     }
 }

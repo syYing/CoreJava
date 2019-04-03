@@ -1,7 +1,7 @@
 
 package Generic;
 
-public interface Comparable<T> {
+interface Comparable<T> {
     public int compareTo(T o);
 }
 

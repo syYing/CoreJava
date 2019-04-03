@@ -3,7 +3,7 @@ package wildCard;
 
 import java.util.List;
 
-public class wildCardFixed {
+public class WildCardFixed {
 
     void foo(List<?> i) {
         fooHelper(i);
